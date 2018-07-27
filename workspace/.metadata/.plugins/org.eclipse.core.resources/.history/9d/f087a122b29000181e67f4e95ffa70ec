@@ -1,0 +1,25 @@
+package pk_toc;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String S = "Ravi Kishore";
+		
+		for(int i=0;i<=S.length();i++)
+		{
+			if(S.equals("") )
+			{
+				System.out.println("Welcome to : " +S);
+			}
+				else 
+				{
+					System.out.println("Please enter :");
+				}
+			}
+		}
+
+	}
+
+}
